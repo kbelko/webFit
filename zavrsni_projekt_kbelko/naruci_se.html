@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>BodyFit</title>
+    <link rel="stylesheet" href="datotekeCSS/layoutStranice.css">
+    <link rel="stylesheet" href="datotekeCSS/cssDatotekaStranica.css">
+</head>
+<body>
+<header>
+    <ul class="kontaktTop">
+        <section>
+            <img src="img/sveStranice/leg_logo.png" alt="logo.png" class="logo">
+        </section>
+        <section>
+            <img class="logoKontakt" src="img/sveStranice/lokacijaLogo.png" alt="lokacijaLogo.png">
+            <li>Palmotićeva ul. 59<br>  10000, Zagreb</li>
+        </section>
+        <section>
+            <img class="logoKontakt" src="img/sveStranice/zoviLogo.png" alt="zoviLogo.png">
+            <li>Nazovi nas<br><a href="#">+385 88 550 4149</a></li>
+        </section>
+        <section>
+            <img class="logoKontakt" src="img/sveStranice/vrijemeLogo.png" alt="vrijemeLogo.png">
+            <li>PON-PET 7:00-21:00<br>SUB Po dogovoru</li>
+        </section>
+    </ul>
+
+</header>
+<nav>
+    <ul id="navbar">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="cjenik.html">Cjenik</a></li>
+        <li><a href="vijesti.html">Vijesti</a></li>
+        <li><a href="#">Dogovori tretman</a></li>
+    </ul>
+</nav>
+<main>
+    <h2 class="naslovStranica">Naruči se!</h2>
+
+    <form>
+
+    <section id="formaKontakt">
+        <label for="ime">Ime</label><br>
+        <input class="inputKucice" type="text" id="ime" name="ime" required><br>
+
+        <label for="prezime">Prezime</label><br>
+        <input class="inputKucice" type="text" id="prezime" name="prezime" required><br>
+
+        <label for="email">E-mail</label><br>
+        <input class="inputKucice" type="email" id="email" name="email" required><br>
+
+        <label for="myInput">Tretman</label>
+        <input class="inputKucice" type="text" id="myInput" list="listaTretmana" required><br>
+
+        <datalist id="listaTretmana">
+            <option value="Masaža leđa	60 min">
+            <option value="Masaža nogu	60 min">
+            <option value="Masaža cijelog tijela	90 min">
+            <option value="Masaža glave i vrata	30 min">
+            <option value="Akupunktura	60 min	">
+            <option value="Limfna drenaža	60 min">
+            <option value="Kineziterapija	60 min">
+            <option value="Vježbe za rehabilitaciju nakon ozljede	60 min">
+            <option value="Manualna terapija	60 min">
+            <option value="Fizikalna terapija	60 min">
+            <option value="Terapija vježbanjem u vodi	60 min">
+            <option value="Krioterapija	10 min">
+            <option value="Toplotna terapija	30 min">
+            <option value="Elektroterapija	30 min">
+            <option value="Ultrazvučna terapija	30 min">
+            <option value="Laserska terapija	30 min">
+            <option value="Magnetoterapija	30 min">
+            <option value="Terapijsko korištenje elastičnih traka	60 min">
+            <option value="Terapijsko korištenje terabandova	60 min">
+            <option value="Vježbe za jačanje mišića	60 min">
+            <option value="Vježbe za istezanje	60 min">
+            <option value="Proprioceptivna neuromuskularna facilitacija	60 min">
+            <option value="Posturalna edukacija	60 min">
+            <option value="Pilates terapija	60 min">
+            <option value="Vježbe za trudnice	60 min">
+            <option value="Vježbe za starije osobe	60 min">
+            <option value="Kiropraktika	60 min">
+            <option value="Kraniosakralna terapija	60 min">
+            <option value="Terapijska masaža za sportaše	90 min">
+            <option value="Sportska masaža	60 min">
+            <option value="Masaža stopala	30 min">
+            <option value="Refleksologija stopala	60 min">
+            <option value="Terapija ultrazvukom	30 min">
+            <option value="Terapija TENS-om	30 min">
+            <option value="Terapija IASTM-om	60 min">
+            <option value="Terapija mikrotokovima	30 min">
+            <option value="Terapija niskofrekventnom elektrostimulacijom	30 min">
+            <option value="Terapija šok valovima	30 min">
+            <option value="Kineziotaping	30 min">
+            <option value="Terapijsko korištenje foam rollera	30 min">
+            <option value="Terapijsko korištenje lopti za masažu	30 min">
+            <option value="Terapijsko korištenje valjaka za masažu	30 min">
+            <option value="Terapijsko korištenje traka za istezanje	30 min">
+            <option value="Vježbe za core	60 min">
+            <option value="Vježbe za ravnotežu	60 min">
+            <option value="Vježbe za fleksibilnost	60 min">
+            <option value="Vježbe za rehabilitaciju nakon operacije	60 min">
+            <option value="Fizioterapija za bol u donjem dijelu leđa	60 min">
+            <option value="Fizioterapija za bol u vratu i ramenima	60 min">
+            <option value="Fizioterapija za bol u koljenima	60 min">
+            <option value="Fizioterapija za bol u laktu	60 min">
+            <option value="Fizioterapija za bol u zglobovima	60 min">
+            <option value="Fizioterapija za bol u mišićima	60 min">
+            <option value="Fizioterapija za artritis	60 min">
+            <option value="Fizioterapija za osteoporozu	60 min">
+            <option value="Fizioterapija za skoliozu	60 min">
+            <option value="Fizioterapija za herniju diska	60 min">
+            <option value="Fizioterapija za tortikolis	60 min">
+            <option value="Fizioterapija za kifozu	60 min">
+            <option value="Fizioterapija za lordozu	60 min">
+            <option value="Fizioterapija za parezu	60 min">
+            <option value="Fizioterapija za paralizu	60 min">
+            <option value="Fizioterapija za cerebralnu paralizu	60 min">
+            <option value="Fizioterapija za Parkinsonovu bolest	60 min">
+            <option value="Fizioterapija za multiple sklerozu	60 min">
+            <option value="Fizioterapija za fibromialgiju	60 min">
+            <option value="Fizioterapija za sindrom karpalnog tunela	60 min">
+            <option value="Fizioterapija za sindrom trbušnog mišića	60 min">
+            <option value="Rehabilitacija nakon moždanog udara	60 min">
+            <option value="Terapija za teniski lakat	60 min">
+            <option value="Terapija za golferski lakat	60 min">
+            <option value="Terapija za plantarni fasciitis	60 min">
+            <option value="Terapija za Ahilovu tetivu	60 min">
+            <option value="Terapija za istegnuće mišića lista	60 min">
+            <option value="Terapija za upalu mišića lista	60 min">
+            <option value="Terapija za upalu tetiva	60 min">
+            <option value="Terapija za burzitis	60 min">
+            <option value="Terapija za tendinitis	60 min">
+            <option value="Terapija za koksartrozu	60 min">
+            <option value="Terapija za gonartrozu	60 min">
+            <option value="Terapija za zamrznuta ramena	60 min">
+            <option value="Terapija za sindrom kubitalnog kanala	60 min">
+            <option value="Terapija za sindrom pronatora teresa	60 min">
+            <option value="Terapija za sindrom levatora skapule	60 min">
+            <option value="Terapija za bol u stopalima	60 min">
+            <option value="Terapija za bol u zglobu koljena	60 min">
+            <option value="Terapija za bol u ramenima	60 min">
+            <option value="Terapija za bol u vratu	60 min">
+            <option value="Terapija za bol u donjem dijelu leđa	60 min">
+            <option value="Terapija za glavobolje	60 min">
+            <option value="Terapija za migrene	60 min">
+            <option value="Terapija za temporomandibularni poremećaj	60 min">
+            <option value="Terapija za sindrom kroničnog umora	60 min">
+            <option value="Terapija za sindrom iritabilnog crijeva	60 min">
+            <option value="Terapija za sindrom fibroze pluća	60 min">
+            <option value="Terapija za Parkinsonovu bolest	60 min">
+        </datalist>
+
+        <label for="datum">Datum</label><br>
+        <input class="inputKucice" type="date" id="datum" name="datum" required><br>
+
+        <label for="poruka">Opiši nam ozljedu/bol</label><br>
+        <textarea class="poruka" id="poruka" name="narudba" required>
+
+        </textarea><br>
+
+
+        <input type="submit" value="Pošalji" id="submitGumb">
+
+    </section>
+    </form>
+
+
+    <section id="mapaContainer">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.276883613669!2d15.979686375266622!3d45.805712910589115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d657c65f0dcd%3A0x4bfc53d510536af7!2sPalmoti%C4%87eva%20ul.%2059%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1683796275785!5m2!1shr!2shr" ></iframe>
+    </section>
+</main>
+<footer>
+
+    <p>© BodyFit 2018.</p>
+
+</footer>
+
+</body>
+</html>
